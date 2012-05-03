@@ -2,8 +2,7 @@ html {
 	cursor: text;
 }
 .editbox {
-	background-color: #777777;
-	color: #333333;
+	color: #494949;
 	font-family: monospace;
 	font-size: 10pt;
 	margin: 0.3em;
@@ -19,19 +18,19 @@ span.sql-var {
 	color: red;
 }
 span.sql-comment {
-	color: #dfc5bb;
+	color: #AA7700;
 }
 span.sql-literal {
-	color: #a3c0a3;
+	color: green;
 }
 span.sql-operator {
 	color: blue;
 }
 span.sql-word {
-	color: #222222;
+	color: #494949;
 }
 span.sql-quoted-word {
-	color: #afb568;
+	color: #680;
 }
 span.sql-function {
 	color: darkorange;
@@ -49,9 +48,9 @@ span.sql-number {
 	background-color: white;
 }
 .CodeMirror-line-numbers {
-	background-color: #777777;
+	background-color: white;
 	border-right: 1px dotted #d4d4d4;
-	color: #EEEEEE;
+	color: #aaaaaa;
 	font-family: courier new;
 	font-size: 10pt;
 	line-height: 1.2em;

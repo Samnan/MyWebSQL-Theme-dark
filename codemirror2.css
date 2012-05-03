@@ -74,28 +74,22 @@ span.CodeMirror-selected {
 
 
 /* =========== mysql related ===================== */
-.cm-s-default { background: #272822; color: #F8F8F2; }
-.cm-s-default span.CodeMirror-selected { background: #FFE792 !important; }
-.cm-s-default .CodeMirror-gutter { background: #272822; border-right: 0px; }
-.cm-s-default .CodeMirror-gutter-text { color: #d0d0d0; }
-.cm-s-default .CodeMirror-cursor { border-left: 1px solid #F8F8F0 !important; }
-
-.cm-s-default span.cm-comment { color: #75715E; }
-.cm-s-default span.cm-atom { color: #AE81FF; }
-.cm-s-default span.cm-number { color: #AE81FF; }
-
-.cm-s-default span.cm-property, .cm-s-default span.cm-attribute {color: #A6E22E;}
-.cm-s-default span.cm-keyword { color: #F92672; }
-.cm-s-default span.cm-string { color: #E6DB74; }
-
-.cm-s-default span.cm-variable {color: #A6E22E;}
-.cm-s-default span.cm-variable-2 { color: #9effff; }
-.cm-s-default span.cm-def { color: #FD971F; }
-.cm-s-default span.cm-error { background: #F92672; color: #F8F8F0; }
-.cm-s-default span.cm-bracket { color: #f8F8F2; }
-.cm-s-default span.cm-tag {color: #F92672;}
-
-.CodeMirror-matchingbracket{
-	text-decoration: underline;
-	color: white !important;
-}
+.cm-s-default span.cm-keyword {color: #708;}
+.cm-s-default span.cm-atom {color: #219;}
+.cm-s-default span.cm-number {color: #164;}
+.cm-s-default span.cm-def {color: #00f;}
+.cm-s-default span.cm-variable {color: black;}
+.cm-s-default span.cm-variable-2 {color: #05a;}
+.cm-s-default span.cm-variable-3 {color: #085;}
+.cm-s-default span.cm-property {color: black;}
+.cm-s-default span.cm-operator {color: black;}
+.cm-s-default span.cm-comment {color: #a50;}
+.cm-s-default span.cm-string {color: #a11;}
+.cm-s-default span.cm-string-2 {color: #f50;}
+.cm-s-default span.cm-meta {color: #555;}
+.cm-s-default span.cm-error {color: #f00;}
+.cm-s-default span.cm-qualifier {color: #555;}
+.cm-s-default span.cm-builtin {color: #30a;}
+.cm-s-default span.cm-bracket {color: #cc7;}
+.cm-s-default span.cm-tag {color: #170;}
+.cm-s-default span.cm-attribute {color: #00c;}
